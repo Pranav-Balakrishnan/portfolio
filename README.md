@@ -5,7 +5,7 @@
 - B.S., Data Science and Applications | Indian Institute of Technology Madras, India (Jan 2021 - May 2024)
 
 ## Publications
-### IEEE MILCOM 2025 - GPU-GLMB: Assessing the Scalability of GPU-Accelerated Multi-Hypothesis Tracking
+### GPU-GLMB: Assessing the Scalability of GPU-Accelerated Multi-Hypothesis Tracking (IEEE MILCOM 2025)
 - Created the world’s first fully vectorized and scalable implementation of a Random Finite Sets (RFS) based Multi Sensor Sequential Monte Carlo (SMC) Generalized Labelled Multi Bernoulli Filter capable of handling one or more detections from each sensor for each object.  
 - Enabled massive parallelization of the track-to-measurement assignment step by engineering a novel, measurement-centric Categorical sampling algorithm to overcome the computational bottleneck of sequential Gibbs sampling.  
 - Delivered exceptional computational efficiency and scalability by leveraging GPU parallel processing, proven by a 100x increase in scenario complexity yielding only a 3x rise in processing time. 
