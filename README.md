@@ -1,5 +1,7 @@
 # A bit about me
 
+[Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
+
 ## Education
 - M.S., Computer Science | University of Massachusetts Amherst (Sep 2024 – May 2026)
 - B.S., Data Science and Applications | Indian Institute of Technology Madras, India (Jan 2021 - May 2024)
