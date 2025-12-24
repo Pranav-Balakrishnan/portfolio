@@ -1,6 +1,10 @@
 title: Pranav Balakrishnan
 logo: /media/photo.jpg
-description:  
+description: My research aims to advance machine intelligence from statistical pattern matching to robust ”System 2” reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract,
+manipulable representations of complex environments. Specifically, I am interested in exploring architectural dichotomies in latent space prediction, such as the trade-offs between generative decoding and collapse-prevention
+methods like Joint Embedding Predictive Architectures (JEPA). My goal is to scale these models to support
+counterfactual simulation, long-horizon forecasting, and zero-shot generalization.
+ 
 #show_downloads: true
 theme: jekyll-theme-minimal
 baseurl: "/portfolio"
