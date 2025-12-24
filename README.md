@@ -39,4 +39,4 @@
 - Automated End-to-End Data Integration: Engineered a fully automated data pipeline using on AWS using Apache Airflow and Spark with Scala to ingest, aggregate, and integrate large-scale third-party. This initiative streamlined bi-weekly updates, leading to a 40% reduction in data update times, and a 25% decrease in compute costs.
 
 ## Achievements
-Gold Medalist, 2016 Indian National Taekwondo Championship (Light Heavyweight)
+🥇 Gold Medalist, 2016 Indian National Taekwondo Championship (Light Heavyweight)
