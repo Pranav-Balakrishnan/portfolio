@@ -22,6 +22,10 @@ body.dark-mode code {
     color: #ccc;
 }
 
+body.dark-mode strong,
+body.dark-mode b {
+  color: #ffffff; /* Sets bold text to white */
+}
 /* Toggle button styling */
 .theme-toggle {
   position: fixed;
