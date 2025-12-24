@@ -2,7 +2,7 @@
 layout: post
 title: Vehicle Tracking with Sqrt-UKF
 description: Robust estimation of vehicle states using a Bicycle Kinematics Motion Model.
-image: /media/bicycle.jpg  # Replace with a specific project image later
+image: /media/bicycle.png  # Replace with a specific project image later
 ---
 
 # Vehicle Tracking with Sqrt-UKF
