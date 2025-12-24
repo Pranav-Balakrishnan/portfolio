@@ -1,0 +1,58 @@
+/* assets/css/layout.css */
+
+/* 1. Expand the main container width */
+.wrapper {
+  max-width: 1200px !important; /* Overrides default narrow width */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* Enables side-by-side layout */
+  gap: 40px; /* Space between sidebar and content */
+  align-items: flex-start;
+}
+
+/* 2. Style the Sidebar (Header) */
+header {
+  width: 280px;
+  flex-shrink: 0; /* Prevents sidebar from shrinking */
+  position: sticky; /* Keeps sidebar visible while scrolling */
+  top: 40px;
+  text-align: left; /* Aligns text to left for cleaner look */
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+header img {
+  border-radius: 50%; /* Optional: Makes your profile photo circular */
+  margin-bottom: 20px;
+  max-width: 150px;
+}
+
+/* 3. Style the Main Content Area */
+.main-content {
+  flex-grow: 1; /* Takes up remaining space */
+  min-width: 0; /* Prevents overflow issues */
+}
+
+/* 4. Mobile Responsiveness */
+/* Stacks content vertically on screens smaller than 800px */
+@media (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header {
+    width: 100%;
+    position: static; /* Removes sticky behavior on mobile */
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    margin: 0 auto 20px auto; /* Centers image on mobile */
+  }
+}
