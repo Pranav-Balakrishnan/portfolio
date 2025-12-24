@@ -2,6 +2,9 @@
 
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
 
+## Research Interest
+My research aims to advance machine intelligence from statistical pattern matching to robust "System 2" reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract, manipulable representations of complex environments. Specifically, I am interested in exploring architectural dichotomies in latent space prediction, such as the trade-offs between generative decoding and collapse-prevention methods like Joint Embedding Predictive Architectures (JEPA). My goal is to scale these models to support counterfactual simulation, long-horizon forecasting, and zero-shot generalization. 
+
 ## Education
 - M.S., Computer Science | University of Massachusetts Amherst (Sep 2024 – May 2026)
 - B.S., Data Science and Applications | Indian Institute of Technology Madras, India (Jan 2021 - May 2024)
