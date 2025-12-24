@@ -4,7 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Function to apply the saved theme on page load
   function applyTheme() {
-    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    const savedTheme = localStorage.getItem('darkMode');
+    
+    // LOGIC CHANGE: 
+    // If savedTheme is 'true', OR if it's null (first visit), default to Dark Mode.
+    const isDarkMode = savedTheme === 'true' || savedTheme === null;
+
     if (isDarkMode) {
       body.classList.add('dark-mode');
       themeToggle.textContent = 'Light Mode ☀️';
