@@ -4,3 +4,6 @@ description:
 #show_downloads: true
 theme: jekyll-theme-minimal
 baseurl: "/portfolio"
+collections:
+  projects:
+    output: true
