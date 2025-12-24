@@ -7,3 +7,5 @@ baseurl: "/portfolio"
 collections:
   projects:
     output: true
+  publications:
+    output: true
