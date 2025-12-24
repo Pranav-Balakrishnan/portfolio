@@ -1,37 +1,71 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const themeToggle = document.getElementById('theme-toggle');
-  const body = document.body;
+/* Basic styles for light mode */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
 
-  // Function to apply the saved theme on page load
-  function applyTheme() {
-    const savedTheme = localStorage.getItem('darkMode');
-    
-    // LOGIC CHANGE: 
-    // If savedTheme is 'true', OR if it's null (first visit), default to Dark Mode.
-    const isDarkMode = savedTheme === 'true' || savedTheme === null;
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
 
-    if (isDarkMode) {
-      body.classList.add('dark-mode');
-      themeToggle.textContent = 'Light Mode ☀️';
-    } else {
-      body.classList.remove('dark-mode');
-      themeToggle.textContent = 'Dark Mode 🌙';
-    }
-  }
+body.dark-mode a {
+  color: #9cdcfe;
+}
 
-  // Event listener for the toggle button
-  themeToggle.addEventListener('click', function () {
-    body.classList.toggle('dark-mode');
-    const isDarkMode = body.classList.contains('dark-mode');
-    localStorage.setItem('darkMode', isDarkMode);
-    
-    if (isDarkMode) {
-      themeToggle.textContent = 'Light Mode ☀️';
-    } else {
-      themeToggle.textContent = 'Dark Mode 🌙';
-    }
-  });
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3 {
+  color: #ffffff;
+}
 
-  // Apply the theme when the page loads
-  applyTheme();
-});
+body.dark-mode code {
+    background-color: #333;
+    color: #ccc;
+}
+
+/* Toggle button styling */
+.theme-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+body.dark-mode .theme-toggle {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+/* Styles for the new blog post header */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+.post-header .header-title a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Overrides the fixed position for the theme toggle on post pages */
+.post-header .theme-toggle {
+  position: static;
+  top: auto;
+  right: auto;
+}
+
+/* Dark mode adjustments for the new header */
+body.dark-mode .post-header {
+  border-bottom: 1px solid #444;
+}
