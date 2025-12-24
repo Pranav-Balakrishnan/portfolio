@@ -15,23 +15,17 @@
 - Benchmarked the filter's performance across diverse CPUs and GPUs, quantifying significant processing speedups showcasing its effectiveness for deployment on resource-constrained edge devices. 
 
 ## Projects
-### Vehicle Tracking with Sqrt-UKF and Bicycle Kinematics Motion Model (Jan 2025 – May 2025)
-- Implemented a numerically stable Square-Root Unscented Kalman Filter (Sqrt-UKF) to robustly estimate vehicle states from a challenging geospatial dataset, effectively handling intermittent sensor data and complex, non-linear dynamics. 
-- Derived and implemented a complex Bicycle Kinematics Motion Model by discretizing the continuous time stochastic differential equation corresponding to the Bicycle Kinematics Model, providing a more accurate representation of real-world vehicle dynamics. 
-- Quantified the superiority of the Bicycle Kinematics motion model by benchmarking three distinct models, demonstrating that the Bicycle Kinematics model reduced Root Mean Square Error (RMSE) by 43% over Constant Velocity (CV) and 27% over Constant Velocity and Turn Rate (CTRV) during challenging vehicle maneuvers. 
-- Developed an end-to-end, data-driven Machine Learning framework by developing a fully differentiable Sqrt-UKF, enabling the optimization of motion model parameters through gradient-based optimization of the Negative Log Likelihood (NLL). 
-
-### Autonomous Human Following Robot (Mar 2025 – May 2025)                                                     
-- Architected and deployed a real-time human-following system on a three-wheeled omnidirectional robot, leveraging ROS for control, an NVIDIA Jetson Nano for onboard computation, and an RGB-D camera for perception. 
-- Enhanced target persistence by integrating a Simple Online Realtime Tracking (SORT) algorithm with a custom-developed re-identification module, using color histogram features to successfully maintain tracking through temporary occlusions. 
-- Optimized the control system by implementing a Proportional (P) controller, achieving a low system latency of 1.2 seconds and enabling smooth, continuous tracking of targets moving at speeds up to 10 m/s. 
-                                                                                 
-### Exploring Noise Schedulers in Diffusion Models (Sep 2024 – Dec 2024)
-- Conducted a comprehensive analysis of noise schedulers (Cosine, Sine, Laplace) to benchmark their impact on the training efficiency 
-and sample quality of Denoising Diffusion Probabilistic Models (DDPMs). 
-- Designed and implemented a novel sine-based noise scheduler designed to explore alternative noise distribution strategies beyond 
-standard schedulers, showcasing significant improvement in generated image quality (FID scores) and a reduction in model training 
-time. 
+<div class="project-grid">
+  {% for project in site.projects %}
+    <a href="{{ project.url | relative_url }}" class="project-card">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+      <div class="card-content">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
 
 ## Work Experience
 **Junior Data Scientist @ Sabio Inc (May 2022 - Mar 2023)**                                                    
