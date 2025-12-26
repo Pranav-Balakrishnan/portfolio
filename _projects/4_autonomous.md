@@ -2,7 +2,7 @@
 layout: post
 title: Autonomous Object Following Robot
 description: A real-time human-following robot deployed on the Triton platform. Integrates YOLOv3-tiny and SORT with custom HSV-based re-identification to enable robust tracking on edge hardware (Jetson Nano) without GPU acceleration.
-image: /media/triton.png  # Replace with a specific project image later
+image: /media/triton2.png  # Replace with a specific project image later
 ---
 
 **Team:** Nilesh Nayan, Pranav Balakrishnan, Sidisha Barik, Shantanu Todmal, Kamalesh Kumar  
