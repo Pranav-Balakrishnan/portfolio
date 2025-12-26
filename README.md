@@ -1,19 +1,3 @@
-<style>
-/* Adjusts the header instead of hiding it to ensure your photo stays visible */
-header {
-    padding-bottom: 20px;
-}
-
-/* Hide only the default "Maintained by" footer text if it appears */
-.site-footer-credits {
-    display: none !important;
-}
-
-body {
-    padding-top: 20px;
-}
-</style>
-
 # A bit about me
 
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
@@ -22,6 +6,7 @@ body {
 My research aims to advance machine intelligence from statistical pattern matching to robust "System 2" reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract, manipulable representations of complex environments. Specifically, I am interested in exploring architectural dichotomies in latent space prediction, such as the trade-offs between generative decoding and collapse-prevention methods like Joint Embedding Predictive Architectures (JEPA). My goal is to scale these models to support counterfactual simulation, long-horizon forecasting, and zero-shot generalization. 
 
 ## Education
+
 | Degree | Institution | Duration |
 | :--- | :--- | :--- |
 | **M.S., Computer Science** | University of Massachusetts, Amherst | Sep 2024 – May 2026 |
