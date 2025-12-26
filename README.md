@@ -1,3 +1,19 @@
+<style>
+/* Adjusts the header instead of hiding it to ensure your photo stays visible */
+header {
+    padding-bottom: 20px;
+}
+
+/* Hide only the default "Maintained by" footer text if it appears */
+.site-footer-credits {
+    display: none !important;
+}
+
+body {
+    padding-top: 20px;
+}
+</style>
+
 # A bit about me
 
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
