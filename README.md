@@ -9,7 +9,7 @@ My research aims to advance machine intelligence from statistical pattern matchi
 | Degree | Institution | Duration |
 | :--- | :--- | :--- |
 | **M.S., Computer Science** | University of Massachusetts, Amherst | Sep 2024 – May 2026 |
-| **B.Sc., Programming and Data Science** | Indian Institute of Technology Madras, India | Jan 2021 – May 2024 |
+| **B.S., Data Science and Applications** | Indian Institute of Technology Madras, India | Jan 2021 – May 2024 |
 
 ## Publications
 <div class="project-grid">
