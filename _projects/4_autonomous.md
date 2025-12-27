@@ -10,6 +10,20 @@ image: /media/triton2.png  # Replace with a specific project image later
 **Report:** [Download PDF](https://drive.google.com/file/d/1rIGqu7iYvASOX5R_7vlzJoTJ6LY4oY5f/view?usp=drive_link)
 
 ---
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
+
+</style>
 
 ### Overview
 This project involved the development and deployment of an end-to-end autonomous object tracking system on the **Triton robot**. The primary goal was to enable the robot to detect, track, and follow specific human targets in real-time.
