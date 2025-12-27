@@ -10,7 +10,20 @@ image: /media/gpu_glmb_groundtruth.png
 **Paper:** [View on arXiv](https://www.arxiv.org/abs/2512.06230)
 
 ---
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
 
+</style>
 ### Overview
 Multi-object tracking (MOT) is a fundamental capability for autonomous driving, robotics, and surveillance. While the **Generalized Labeled Multi-Bernoulli (GLMB)** filter provides an exact closed-form solution to the multi-target Bayes recursion, its computational cost typically prohibits real-time use in complex scenarios.
 
