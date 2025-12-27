@@ -1,3 +1,18 @@
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
+
+</style>
+
 # A bit about me
 
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
