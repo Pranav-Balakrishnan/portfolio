@@ -1,3 +1,18 @@
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
+
+</style>
+
 ---
 layout: post
 title: Vehicle Tracking with Sqrt-UKF
