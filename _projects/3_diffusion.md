@@ -10,7 +10,20 @@ image: /media/noise_schedule.png  # Replace with a specific project image later
 **Report:** [Download PDF](https://drive.google.com/file/d/1tbiMq69XlXGulkmMFHxsccPNf_mQGrDl/view?usp=drive_link)
 
 ---
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
 
+</style>
 ### Overview
 Diffusion models have gained massive attention for their high-quality generative capabilities. However, the "noise schedule"—which defines the amount and timing of noise added during training—plays a critical, often overlooked role in performance.
 
