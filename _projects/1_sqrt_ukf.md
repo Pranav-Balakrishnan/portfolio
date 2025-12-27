@@ -10,6 +10,20 @@ image: /media/bicycle.png  # Replace with a specific project image later
 **Report:** [Download PDF](https://drive.google.com/file/d/185LDURtipDJYSWhLRFc-3scuCF-fsy4i/view?usp=drive_link)
 
 ---
+<style>
+/* 2. Link and Heading Colors (Changing from Blue) */
+a {
+    color: #678953 !important; /* A warm amber for links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #91b859 !important; /* A slightly deeper orange for headings */
+}
+
+</style>
 
 ### Overview
 Single-object tracking is fundamental for autonomous navigation, yet it remains challenging when dealing with non-linear motion, sensor noise, and "blind spots" in distributed camera networks.
