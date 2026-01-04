@@ -2,7 +2,7 @@
 layout: post
 title: "GPU-GLMB: Scalable Multi-Hypothesis Tracking"
 description: "Fully vectorized implementation of the GLMB filter, capable of massive parallelization on GPUs."
-image: /media/gpu_glmb_groundtruth.png
+image: /media/glmb_map_gif.gif
 ---
 
 **Authors:** Pranav Balakrishnan, Sidisha Barik, Sean M. O'Rourke, and Benjamin M. Marlin  
@@ -29,7 +29,7 @@ Multi-object tracking (MOT) is a fundamental capability for autonomous driving, 
 
 **GPU-GLMB** addresses this bottleneck by introducing a modified filter variant that allows **multiple detections per object**. This seemingly minor change breaks the strict inter-detection dependencies of the standard GLMB update step, unlocking the ability to perform hypothesis generation and weight updates in parallel.
 
-![Tracker Demo]({{ site.baseurl }}/media/clamp_gif.gif)
+![Tracker Demo]({{ site.baseurl }}/media/glmb_map_gif.gif)
 
 *Figure: Visualization of the tracker handling complex multi-object scenarios.*
 
