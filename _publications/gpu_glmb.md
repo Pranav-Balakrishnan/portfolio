@@ -26,7 +26,15 @@ h1, h2, h3 {
 </style>
 ### Overview
 
-<video controls muted playsinline width="100%" style="max-width: 1000px; display: block; margin: 0 auto; border-radius: 8px;">
+<video 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  width="100%" 
+  style="max-width: 1000px; display: block; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"
+  poster="{{ site.baseurl }}/media/glmb_map_gif.gif"
+>
   <source src="https://github.com/Pranav-Balakrishnan/portfolio/raw/main/media/20_objects_with_road.mp4" type="video/mp4">
   <p>Your browser does not support the video tag.</p>
 </video>
