@@ -29,7 +29,7 @@ Multi-object tracking (MOT) is a fundamental capability for autonomous driving, 
 
 **GPU-GLMB** addresses this bottleneck by introducing a modified filter variant that allows **multiple detections per object**. This seemingly minor change breaks the strict inter-detection dependencies of the standard GLMB update step, unlocking the ability to perform hypothesis generation and weight updates in parallel.
 
-![Tracker Demo]({{ site.baseurl }}/media/glmb_map_gif.gif)
+<img src="{{ site.baseurl }}/media/glmb_map_gif_2.gif" alt="Tracker Demo" style="width:100%; max-width:1000px; display:block; margin-left:auto; margin-right:auto;">
 
 *Figure: Visualization of the tracker handling complex multi-object scenarios.*
 
