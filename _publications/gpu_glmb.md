@@ -25,9 +25,6 @@ h1, h2, h3 {
 
 </style>
 ### Overview
-Multi-object tracking (MOT) is a fundamental capability for autonomous driving, robotics, and surveillance. While the **Generalized Labeled Multi-Bernoulli (GLMB)** filter provides an exact closed-form solution to the multi-target Bayes recursion, its computational cost typically prohibits real-time use in complex scenarios.
-
-**GPU-GLMB** addresses this bottleneck by introducing a modified filter variant that allows **multiple detections per object**. This seemingly minor change breaks the strict inter-detection dependencies of the standard GLMB update step, unlocking the ability to perform hypothesis generation and weight updates in parallel.
 
 <video controls muted playsinline width="100%" style="max-width: 1000px; display: block; margin: 0 auto; border-radius: 8px;">
   <source src="https://github.com/Pranav-Balakrishnan/portfolio/raw/main/media/20_objects_with_road.mp4" type="video/mp4">
@@ -35,6 +32,12 @@ Multi-object tracking (MOT) is a fundamental capability for autonomous driving, 
 </video>
 
 *Figure: Visualization of the tracker handling complex multi-object scenarios.*
+
+Multi-object tracking (MOT) is a fundamental capability for autonomous driving, robotics, and surveillance. While the **Generalized Labeled Multi-Bernoulli (GLMB)** filter provides an exact closed-form solution to the multi-target Bayes recursion, its computational cost typically prohibits real-time use in complex scenarios.
+
+**GPU-GLMB** addresses this bottleneck by introducing a modified filter variant that allows **multiple detections per object**. This seemingly minor change breaks the strict inter-detection dependencies of the standard GLMB update step, unlocking the ability to perform hypothesis generation and weight updates in parallel.
+
+
 
 ### Key Contributions
 * **Fully Vectorized Implementation:** We re-engineered the GLMB filter using **PyTorch**, enabling it to run efficiently on GPU hardware by processing batches of hypotheses simultaneously.
