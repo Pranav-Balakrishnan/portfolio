@@ -18,7 +18,7 @@ h1, h2, h3 {
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
 
 ## Research Interest
-My research aims to advance machine intelligence from statistical pattern matching to robust "System 2" reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract, manipulable representations of complex environments. Specifically, I am interested in exploring architectural dichotomies in latent space prediction, such as the trade-offs between generative decoding and collapse-prevention methods like Joint Embedding Predictive Architectures (JEPA). My goal is to scale these models to support counterfactual simulation, long-horizon forecasting, and zero-shot generalization. 
+My research aims to advance machine intelligence from statistical pattern matching to robust “System 2” reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract, manipulable representations of complex environments. Specifically, I am interested in exploring Joint Embedding Predictive Architectures (JEPAs), utilizing Energy-Based Models (EBMs) and novel regularization techniques that enforce structure and prevent collapse in the latent space, enabling the hierarchical planning required for true System 2 reasoning.
 
 ## Education
 
