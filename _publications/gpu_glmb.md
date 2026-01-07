@@ -54,7 +54,7 @@ Multi-object tracking (MOT) is a fundamental capability for autonomous driving, 
 * **Cross-Platform Performance:** Benchmarked across NVIDIA L40S (Server), NVIDIA 2080Ti (Desktop), and NVIDIA Orin NX (Edge) GPUs, proving the system's viability for both high-performance servers and resource-constrained edge devices.
 
 ### Performance Results
-Our analysis focused on run-time scalability with respect to the number of objects and retained hypotheses ($H_{max}$).
+Our analysis focused on run-time scalability with respect to the number of objects and retained hypotheses ( $H_{max}$ ).
 
 1.  **Server vs. CPU:** On scenarios with 5 or more objects, the server CPU failed to maintain real-time performance (<0.1s per update), whereas the GPU implementation maintained sub-0.1s update times even with 20 objects.
 2.  **Tracking Accuracy:** The relative cardinality error remained below **2%** for up to 10 objects, demonstrating that the parallelized approximation does not sacrifice tracking quality.
