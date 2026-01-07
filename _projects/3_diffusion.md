@@ -25,7 +25,7 @@ h1, h2, h3 {
 
 </style>
 ### Overview
-Diffusion models have gained massive attention for their high-quality generative capabilities. However, the "noise schedule"—which defines the amount and timing of noise added during training—plays a critical, often overlooked role in performance.
+Diffusion models have gained massive attention for their high-quality generative capabilities. However, the "noise schedule", which defines the amount and timing of noise added during training, plays a critical, often overlooked role in performance.
 
 This project investigates how different noise schedulers impact both the training and sampling of Denoising Diffusion Probabilistic Models (DDPMs). We evaluated performance under two distinct formulations:
 1.  **Variance-Preserving (VP)**
