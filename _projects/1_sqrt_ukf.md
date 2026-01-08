@@ -51,7 +51,7 @@ We evaluated tracking performance on a dataset featuring three vehicle types (Bu
     3.  **Bicycle Kinematics Model:** To capture physical reality and improve density estimation, I incorporated domain-specific inductive biases by adopting a non-linear bicycle kinematic motion model. I derived a closed-form linearization of the stochastic differential equations governing state evolution to enable a differentiable update rule.
 
     ![Bicycle Kinematics Model]({{ site.baseurl }}/media/bicycle.png)
-    <div class="caption">Figure: The purple object of length L having its center of gravity at $(x_1,x_2)$ at a distance of $l_r$ from the rear wheel is moving with a heading angle $\theta$ and has a steering angle of $\delta$. $\beta$ is the slip angle and S is the distance of the Instantaneous center of rotation (ICR) to the real wheels and R is the distance of the ICR to the center of gravity.</div>
+    <div class="caption"><i>Figure: The purple object of length L having its center of gravity at $(x_1,x_2)$ at a distance of $l_r$ from the rear wheel is moving with a heading angle $\theta$ and has a steering angle of $\delta$. $\beta$ is the slip angle and S is the distance of the Instantaneous center of rotation (ICR) to the real wheels and R is the distance of the ICR to the center of gravity.</i></div>
 
 * **Differentiable Parameter Learning:**
     To avoid the tedious process of manual tuning, we developed an end-to-end framework to learn motion model parameters (specifically acceleration noise) from data. By making the Sqrt-UKF fully differentiable, we optimized these parameters by minimizing the Negative Log Likelihood (NLL) of ground truth observations using gradient-based optimization.
