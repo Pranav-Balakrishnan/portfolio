@@ -54,8 +54,8 @@ We successfully architected a custom multimodal pipeline fusing a frozen I-JEPA 
 ### Key Findings
 We evaluated the model on the **POPE (Polling on Object Permanence)** benchmark to test for hallucinations and spatial grounding.
 
-[← Back to Home]({{ site.baseurl }}/)
+* **Successful Translation:** The model achieved **68.0% accuracy**, significantly outperforming the random chance baseline of 50.0%. This proves that non-semantic, geometric features can indeed be translated into the semantic space of an LLM.
+* **The "Completion" Bias:** While the model could "see," it exhibited a high **Yes-Ratio of 80%**. Because I-JEPA is trained to predict missing image parts, the model tended to hallucinate contextually plausible objects (e.g., imagining a toothbrush in a bathroom) even when they weren't visible.
+* **Conclusion:** World Models offer a promising path for spatial intelligence, but their generative nature requires specialized alignment techniques (like hard-negative mining) to unlearn the habit of "completing" the scene.
 
-* **Successful Translation:** The model achieved **68.0% accuracy**, significantly outperforming the random chance baseline of 50.0%. [cite_start]This proves that non-semantic, geometric features can indeed be translated into the semantic space of an LLM[cite: 5282, 5355].
-* [cite_start]**The "Completion" Bias:** While the model could "see," it exhibited a high **Yes-Ratio of 80%**[cite: 5294]. [cite_start]Because I-JEPA is trained to predict missing image parts, the model tended to hallucinate contextually plausible objects (e.g., imagining a toothbrush in a bathroom) even when they weren't visible[cite: 5317].
-* [cite_start]**Conclusion:** World Models offer a promising path for spatial intelligence, but their generative nature requires specialized alignment techniques (like hard-negative mining) to unlearn the habit of "completing" the scene[cite: 5360].
+[← Back to Home]({{ site.baseurl }}/)
