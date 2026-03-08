@@ -6,6 +6,7 @@ image: /media/bicycle_eq.png
 ---
 
 **Authors:** Benjamin M. Marlin, Sean M. O’Rourke, Sidisha Barik, Pranav Balakrishnan, and Colin Samplawski
+
 **Conference:** Submitted to International Conference on Information Fusion  
 
 ---
