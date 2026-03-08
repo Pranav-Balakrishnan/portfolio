@@ -40,6 +40,7 @@ My research aims to advance machine intelligence from statistical pattern matchi
   {% endfor %}
 </div>
 
+
 ## Projects
 <div class="project-grid">
   {% for project in site.projects %}
