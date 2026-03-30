@@ -17,8 +17,8 @@ h1, h2, h3 {
 
 [Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
 
-## Research Interest
-My research aims to advance machine intelligence from statistical pattern matching to robust “System 2” reasoning and planning. I am focused on developing World Models via Self-Supervised Learning (SSL) to learn abstract, manipulable representations of complex environments. Specifically, I am interested in exploring Joint Embedding Predictive Architectures (JEPAs), utilizing Energy-Based Models (EBMs) and novel regularization techniques that enforce structure and prevent collapse in the latent space, enabling the hierarchical planning required for true System 2 reasoning.
+## About
+Master’s student in Computer Science specializing in multi-sensor fusion, real-time object tracking, and uncertainty-aware state estimation. Experience building real-time detection and tracking pipelines, scalable multi-object tracking systems, and multimodal AI models, with a focus on deploying robust perception under real-world constraints and embedded environments.
 
 ## Education
 
