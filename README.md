@@ -11,11 +11,32 @@ h1, h2, h3 {
     color: #91b859 !important; /* A slightly deeper orange for headings */
 }
 
+/* Resume link styled as a button in the top nav */
+a.resume-link {
+    display: inline-block;
+    padding: 3px 12px;
+    border: 1px solid #678953;
+    border-radius: 20px;
+    font-weight: bold;
+}
+a.resume-link:hover {
+    background-color: #678953;
+    color: #fff !important;
+    text-decoration: none;
+}
+body.dark-mode a.resume-link {
+    border-color: #9cdcfe;
+}
+body.dark-mode a.resume-link:hover {
+    background-color: #9cdcfe;
+    color: #1e1e1e !important;
+}
+
 </style>
 
 # A bit about me
 
-[Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education)
+[Work Experience](#work-experience) • [Projects](#projects) • [Publications](#publications) • [Education](#education) • <a class="resume-link" href="{{ '/media/Pranav_resume.pdf' | relative_url }}" target="_blank" rel="noopener">📄 Resume</a>
 
 ## About
 Master’s student in Computer Science specializing in multi-sensor fusion, real-time object tracking, and uncertainty-aware state estimation. Experience building real-time detection and tracking pipelines, scalable multi-object tracking systems, and multimodal AI models, with a focus on deploying robust perception under real-world constraints and embedded environments.
